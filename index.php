@@ -45,11 +45,11 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Create</a>
-                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Solutions</a>
+                    <a href="login.php" class="text-gray-700 hover:text-indigo-600 transition duration-200">Create</a>
+                    <a href="register.php" class="text-gray-700 hover:text-indigo-600 transition duration-200">Register</a>
                     <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Examples</a>
                     <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Learn</a>
-                    <a href="pricing.html" class="text-gray-700 hover:text-indigo-600 transition duration-200">Pricing</a>
+                    <a href="pricing.php" class="text-gray-700 hover:text-indigo-600 transition duration-200">Pricing</a>
                     <!-- <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Login</a>
                     <a href="#"
                         class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition duration-200">Sign
@@ -69,10 +69,10 @@
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
             <div class="px-4 pt-2 pb-4 space-y-2 ">
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Create</a>
-                <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Solutions</a>
+                <a href="register.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Register</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Examples</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Learn</a>
-                <a href="pricing.html" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Pricing</a>
+                <a href="pricing.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Pricing</a>
                 <!-- <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Login</a>
                 <a href="#"
                     class="block bg-indigo-600 text-white text-center px-4 py-2 rounded-full hover:bg-indigo-700 transition duration-200 text-center">Sign
@@ -92,7 +92,7 @@
                 Future</h1>
             <p class="text-lg md:text-2xl mb-8 animate-fadeInUp animation-delay-200">Discover peace of mind with Budget
                 Bliss – your simple, stunning budgeting companion.</p>
-            <a href="#signup"
+            <a href="register.php"
                 class="bg-white text-indigo-600 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-100 transition duration-300 animate-fadeInUp animation-delay-400">Start
                 for Free</a>
         </div>

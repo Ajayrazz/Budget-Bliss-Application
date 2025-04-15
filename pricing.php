@@ -40,13 +40,13 @@
             <div class="flex justify-between h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="index.html" class="text-2xl font-bold text-indigo-600">Budget Bliss</a>
+                    <a href="index.php" class="text-2xl font-bold text-indigo-600">Budget Bliss</a>
                 </div>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Create</a>
-                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Solutions</a>
+                    <a href="login.php" class="text-gray-700 hover:text-indigo-600 transition duration-200">Create</a>
+                    <a href="register.php" class="text-gray-700 hover:text-indigo-600 transition duration-200">Register</a>
                     <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Examples</a>
                     <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Learn</a>
                     <a href="#" class="text-gray-700 hover:text-indigo-600 transition duration-200">Pricing</a>
@@ -68,11 +68,11 @@
         <!-- Mobile Menu (Hidden by Default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
             <div class="px-4 pt-2 pb-4 space-y-2 ">
-                <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Create</a>
-                <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Solutions</a>
+                <a href="login.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Create</a>
+                <a href="register.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Register</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Examples</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Learn</a>
-                <a href="pricing.html" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Pricing</a>
+                <a href="pricing.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Pricing</a>
                 <!-- <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Login</a>
                 <a href="#"
                     class="block bg-indigo-600 text-white text-center px-4 py-2 rounded-full hover:bg-indigo-700 transition duration-200 text-center">Sign
