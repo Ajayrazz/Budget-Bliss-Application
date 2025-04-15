@@ -68,7 +68,7 @@
         <!-- Mobile Menu (Hidden by Default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
             <div class="px-4 pt-2 pb-4 space-y-2 ">
-                <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Create</a>
+                <a href="login.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Create</a>
                 <a href="register.php" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Register</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Examples</a>
                 <a href="#" class="block text-gray-700 hover:text-indigo-600 py-2 text-center">Learn</a>
