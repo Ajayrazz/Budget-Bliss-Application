@@ -135,7 +135,7 @@
 	<header>
 	
 		<h1 class="mt-3 mb-1" id="title">
-			<a id="homeButton" href="index.php" role="button"><span id="logo">myBudget</span>.com</a>
+			<a id="homeButton" href="index.php" role="button"><span id="logo">BudgetBliss</span>.com</a>
 		</h1>
 		
 		<p id="subtitle">Your Personal Finance Manager</p>
@@ -283,7 +283,7 @@
 	<footer>
 	
 		<div class="col my-2 footer">
-			2025 &copy; myBudget.com
+			2025 &copy; BudgetBliss.com
 		</div>
 		
 	</footer>
