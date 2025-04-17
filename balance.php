@@ -236,7 +236,7 @@
 								
 								foreach ($incomesOfLoggedUser as $incomes) {
 									
-									echo "<tr class=\"summary\"><td class=\"category\">{$incomes['income_category']}</td><td class=\"sum\">{$incomes['income_amount']} PLN</td></tr>";
+									echo "<tr class=\"summary\"><td class=\"category\">{$incomes['income_category']}</td><td class=\"sum\">{$incomes['income_amount']}</td></tr>";
 									
 									$totalIncomes += $incomes['income_amount'];
 									
@@ -251,11 +251,11 @@
 									
 									foreach ($incomesOfSpecificCategory as $categoryIncome) {
 										
-										echo "<tr><td class=\"date\">{$categoryIncome['income_date']}</td><td class=\"amount\">{$categoryIncome['income_amount']} PLN</td><td class=\"comment\">{$categoryIncome['income_comment']}</td></tr>";
+										echo "<tr><td class=\"date\">{$categoryIncome['income_date']}</td><td class=\"amount\">{$categoryIncome['income_amount']} </td><td class=\"comment\">{$categoryIncome['income_comment']}</td></tr>";
 									}
 								}
 								
-								echo "<tr class=\"summary\"><td class=\"total\">TOTAL</td><td class=\"sum\">{$totalIncomes} PLN</td></tr>";
+								echo "<tr class=\"summary\"><td class=\"total\">TOTAL</td><td class=\"sum\">{$totalIncomes}</td></tr>";
 							?>
 						</tbody>
 					</table>
@@ -280,7 +280,7 @@
 								
 								foreach ($expensesOfLoggedUser as $expenses) {
 									
-									echo "<tr class=\"summary\"><td class=\"category\">{$expenses['expense_category']}</td><td class=\"sum\">{$expenses['expense_amount']} PLN</td></tr>";
+									echo "<tr class=\"summary\"><td class=\"category\">{$expenses['expense_category']}</td><td class=\"sum\">{$expenses['expense_amount']}</td></tr>";
 									
 									$totalExpenses += $expenses['expense_amount'];
 									
@@ -295,11 +295,11 @@
 									
 									foreach ($expensesOfSpecificCategory as $categoryExpense) {
 										
-										echo "<tr><td class=\"date\">{$categoryExpense['expense_date']}</td><td class=\"amount\">{$categoryExpense['expense_amount']} PLN</td><td class=\"payment\">{$categoryExpense['payment_method']}</td><td class=\"comment\">{$categoryExpense['expense_comment']}</td></tr>";
+										echo "<tr><td class=\"date\">{$categoryExpense['expense_date']}</td><td class=\"amount\">{$categoryExpense['expense_amount']} </td><td class=\"payment\">{$categoryExpense['payment_method']}</td><td class=\"comment\">{$categoryExpense['expense_comment']}</td></tr>";
 									}
 								}
 								
-								echo "<tr class=\"summary\"><td class=\"total\">TOTAL</td><td class=\"sum\">{$totalExpenses} PLN</td></tr>";
+								echo "<tr class=\"summary\"><td class=\"total\">TOTAL</td><td class=\"sum\">{$totalExpenses} </td></tr>";
 							?>
 						</tbody>
 					</table>
@@ -383,7 +383,7 @@
 		</div>
 		
 	</main>
-	
+	<!-- footer section -->
 	<footer>
 	
 		<div class="col my-2 footer">
